@@ -1,5 +1,6 @@
 # Neural Network Library
-A library for using and training neural networks of variable architecture written in java
+A library for using and training feed forward neural networks of variable architecture written in java.
+
 Started 2021 Completed 2024
 
 ![Image of Neural Network Diagram][imgLink]
