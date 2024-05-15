@@ -15,6 +15,7 @@ If you want to see a working example of the libray click [here](#project-story).
 ![Image of Weight Matrix Data][imgSampleMatrix]
 
 
+
 ## Documentation
 ### Initialization
 
@@ -39,7 +40,7 @@ The library is also equiped to create a network based on a JSON file earlier exp
 
 `Test(float[][] testInputs, float[][] testTargets, printProgress, resultType, resultPrintOptions)`: Provide this function with your testing data and the type of output (result) you expect and it will create an accuracy report of the neural network.
 
-*This is not very good documentation. The docstrings in the NeuralNetwork.java provide much better explainations* 
+ :warning: *This is not very good documentation. The docstrings in the NeuralNetwork.java provide much better explainations.* :warning:
 
 [imgLink]: /img/Neural-Networks-Architecture.png
 [imgSampleMatrix]: /img//sample_matrix.png
