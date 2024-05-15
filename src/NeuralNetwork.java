@@ -418,6 +418,19 @@ public class NeuralNetwork {
 	}
 
 	/**
+	 * The Feed Forward accepts an input array and uses this to calculate a output
+	 * array using the feed forward alogrithm. Prints results to console in table.
+	 * 
+	 * @param inputArray A single dimensional array of the input float values
+	 *                   normalized to be [0,1]
+	 * 
+	 * @return A single dimensional array of the output values
+	 */
+	public float[] FeedForward(float[] inputArray) {
+		return FeedForward(inputArray, PrintResult.PRETTYPRINT);
+	}
+
+	/**
 	 * Train tweeks the weight values based on provided training data. Data is split
 	 * into batches and after all batches are completed the network can be trained
 	 * iteratively.
