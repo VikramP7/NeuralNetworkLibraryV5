@@ -10,7 +10,7 @@ This project consists of two java files: the Matrix.java and the NeuralNetwork.j
 
 This project is a library written completely from scratch by me. I created this mostly as an educational experience, exploring how matrix mathematics works and how neural networks function.
 
-If you want to see a working example of the library click [here](#project-story).
+If you want to see a working example of the library click [here][linkHandwritten].
 
 ![Image of Weight Matrix Data][imgSampleMatrix]
 
@@ -44,3 +44,4 @@ The library is also equipped to create a network based on a JSON file earlier ex
 
 [imgLink]: /img/Neural-Networks-Architecture.png
 [imgSampleMatrix]: /img//sample_matrix.png
+[linkHandwritten]: https://github.com/VikramP7/HandWrittenNumberIdentifierNeuralNetwork
