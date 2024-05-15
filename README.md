@@ -6,11 +6,11 @@ Started 2021 Completed 2024
 ![Image of Neural Network Diagram][imgLink]
 
 ## Brief Description
-This project consists of two java files: the Matrix.java and the NeuralNetwork.java. The matrix object is a matrix library that handles all of the matrix mathematics *(as expected...)* and acts as a data structure to hold the values of the neural network. The neural network object, is the dynamic library that allows the user to create **feed forward** networks of specified topology and train the network using sample data and the **gradient decent back propagation** model.
+This project consists of two java files: the Matrix.java and the NeuralNetwork.java. The matrix object is a matrix library that handles all of the matrix mathematics *(as expected...)* and acts as a data structure to hold the values of the neural network. The neural network object is a library that allows the user to create **feed forward** networks of specified topology and train the network using sample data and the **gradient decent back propagation** model.
 
-This project is a library written completely from scratch by me. I created this mostly as an educational experiance, exploring how matrix mathematics works and how neural networks function.
+This project is a library written completely from scratch by me. I created this mostly as an educational experience, exploring how matrix mathematics works and how neural networks function.
 
-If you want to see a working example of the libray click [here](#project-story).
+If you want to see a working example of the library click [here](#project-story).
 
 ![Image of Weight Matrix Data][imgSampleMatrix]
 
@@ -21,9 +21,9 @@ If you want to see a working example of the libray click [here](#project-story).
 
 `NeuralNetwork(#ofInputs, {#ofNodesInFirstHiddenLayer, #ofNodesInSecondHiddenLayer,...}, #ofOutputs, [randomSeed])`
 
-There are many constructors to meet various needs, however most constructors require the topology of the network. How many inputs will the network take, how many hidden layer will there be (and how many nodes should each one have), and how many output will the network produce. 
+There are many constructors to meet various needs, however most constructors require the topology of the network. How many inputs will the network take, how many hidden layers will there be (and how many nodes should each one have), and how many output will the network produce. 
 
-The library is also equiped to create a network based on a JSON file earlier exported from the program. *When I said this library was written entirely from scratch, this JSON interpretor was too... It hasn't been as extensively tested*
+The library is also equipped to create a network based on a JSON file earlier exported from the program. *When I said this library was written entirely from scratch, this JSON interpreter was too... It hasn't been as extensively tested*
 
 ### Getting and Setting Network Parameters
 `SetLearningRate(float learningRate)`: Get and Set the value of the learning rate. 
