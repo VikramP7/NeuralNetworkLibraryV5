@@ -36,7 +36,7 @@ The library is also equiped to create a network based on a JSON file earlier exp
 `FeedForward(float[] inputArray, [PrintOption])`: When provided an array of input values it returns an array of the output values of the matrix. See docstring for print options.
 
 ### Training the Neural Network
-`Train(float[][] inputData, float[][] targetsData, int batchSize, int itterations, printOptions)`: Provide all of the training inputs and targets in the inputData and targetsData. Set the batch size and how many itterations over the provided training data should be completed. And provide the print options. This will train the neural network.
+`Train(float[][] inputData, float[][] targetsData, int batchSize, int iterations, printOptions)`: Provide all of the training inputs and targets in the inputData and targetsData. Set the batch size and how many iterations  over the provided training data should be completed. And provide the print options. This will train the neural network.
 
 `Test(float[][] testInputs, float[][] testTargets, printProgress, resultType, resultPrintOptions)`: Provide this function with your testing data and the type of output (result) you expect and it will create an accuracy report of the neural network.
 

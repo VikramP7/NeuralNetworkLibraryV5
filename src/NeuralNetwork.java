@@ -441,18 +441,18 @@ public class NeuralNetwork {
 	 *                        Each array is one data sample.
 	 * @param batchSize       The size of one batch (should be less than the number
 	 *                        of data samples)
-	 * @param itterations     How many times the network will itterate over the
+	 * @param iterations      How many times the network will itterate over the
 	 *                        provided data
 	 * @param printProgress   Option to specify if current progress is printed
 	 *                        PRINTPROGRESS (Prints current progress)
 	 *                        DONTPRINTPROGRESS (doesn't print anything)
 	 */
-	public void Train(float[][] allInputsArray, float[][] allTargetsArray, int batchSize, int itterations,
+	public void Train(float[][] allInputsArray, float[][] allTargetsArray, int batchSize, int iterations,
 			PrintProgress printProgress) {
 		BATCHSIZE = batchSize;
 
 		// loop whole training procedure how many ever itteration we are doing
-		for (int trainingItterations = 0; trainingItterations < itterations; trainingItterations++) {
+		for (int trainingIterations = 0; trainingIterations < iterations; trainingIterations++) {
 			// loop through data taking each batch
 			for (int n = 0; n < allInputsArray.length - batchSize; n = n + batchSize) {
 
@@ -481,7 +481,7 @@ public class NeuralNetwork {
 				}
 			}
 			if (printProgress == PrintProgress.PRINTPROGRESS) {
-				System.out.println("Completed  iteration " + (trainingItterations + 1) + " out of " + itterations);
+				System.out.println("Completed  iteration " + (trainingIterations + 1) + " out of " + iterations);
 			}
 		}
 	}
